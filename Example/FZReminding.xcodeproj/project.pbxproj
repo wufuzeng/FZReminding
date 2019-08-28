@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F36557A55196EB7ABAFFF03 /* FZReminding.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZReminding.podspec; path = ../FZReminding.podspec; sourceTree = "<group>"; };
+		1F36557A55196EB7ABAFFF03 /* FZReminding.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZReminding.podspec; path = ../FZReminding.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47456C45F620005CD9DFDFC3 /* Pods_FZReminding_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZReminding_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D5A8E6E5D2D0A01AE58423E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D5A8E6E5D2D0A01AE58423E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZReminding_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZReminding_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C10BA2FA13CC28D187D0D8 /* Pods_FZReminding_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZReminding_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65E392FADCD00BE2B7F4817 /* Pods-FZReminding_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZReminding_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZReminding_Tests/Pods-FZReminding_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BB928E8ABFA8770C8E4A7E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB928E8ABFA8770C8E4A7E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BFA4B70D5B30DF211771B0DA /* Pods-FZReminding_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZReminding_Example.debug.xcconfig"; path = "Target Support Files/Pods-FZReminding_Example/Pods-FZReminding_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF023A4C278BD597CB02AE28 /* Pods-FZReminding_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZReminding_Example.release.xcconfig"; path = "Target Support Files/Pods-FZReminding_Example/Pods-FZReminding_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FF3718A13F62D3496038866E /* Pods-FZReminding_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZReminding_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZReminding_Tests/Pods-FZReminding_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				FF3718A13F62D3496038866E /* Pods-FZReminding_Tests.debug.xcconfig */,
 				A65E392FADCD00BE2B7F4817 /* Pods-FZReminding_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZZ7QJD8PMQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = BFA4B70D5B30DF211771B0DA /* Pods-FZReminding_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZReminding/FZReminding-Prefix.pch";
 				INFOPLIST_FILE = "FZReminding/FZReminding-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = EF023A4C278BD597CB02AE28 /* Pods-FZReminding_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZReminding/FZReminding-Prefix.pch";
 				INFOPLIST_FILE = "FZReminding/FZReminding-Info.plist";

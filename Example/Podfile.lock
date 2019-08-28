@@ -1,0 +1,16 @@
+PODS:
+  - FZReminding (0.0.1)
+
+DEPENDENCIES:
+  - FZReminding (from `../`)
+
+EXTERNAL SOURCES:
+  FZReminding:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZReminding: acb7ff45212ac0febaaad395796f70379d8fc324
+
+PODFILE CHECKSUM: c2c9a0f3202146a5515ece02e4cf2b5aec99e70f
+
+COCOAPODS: 1.8.0.beta.1

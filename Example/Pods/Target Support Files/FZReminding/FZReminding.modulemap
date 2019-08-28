@@ -1,0 +1,6 @@
+framework module FZReminding {
+  umbrella header "FZReminding-umbrella.h"
+
+  export *
+  module * { export * }
+}
